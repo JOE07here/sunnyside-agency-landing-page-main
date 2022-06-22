@@ -96,13 +96,42 @@ text-align: center;
 }
 
 
+
+
 .graphic-photo{
-  display: flex;
-  flex-direction: row;
+ display: flex;
+ flex-direction: row;
+  position: relative;
+  align-items:flex-start;
   justify-content: center;
-  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
+.graphic {
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.photography
+{
+  background-image: url(./images/desktop/image-photography.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+.graphic-text .photo-text {
+position: absolute;
+bottom: 0;
+text-overflow:none;
+}
 
 .gallery{
   display: flex;
@@ -113,10 +142,10 @@ text-align: center;
 }
 
 
-
+/* 
 .grid-4 img{
   width: 300px;
-}
+} */
 
 
 
@@ -135,5 +164,90 @@ header .header-content{
 }
 
 
+
+
+.client-testimonials {
+  display: flex;
+  text-align: center;
+  padding: 0 2.5rem;
+}
+
+.client-testimonials img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.client-testimonials p {
+  color: #222;
+  font-size: 16px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 600;
+  opacity: 0.8;
+  line-height: 1.6;
+  padding: 50px 0;
+}
+
+.client-testimonials h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.client-testimonials h6 {
+  color: #888;
+  opacity: 0.8;
+}
+
+
+footer {
+  height: 350px;
+  display: block;
+  padding: 80px;
+  text-align: center;
+  background: hsl(168,45%,69%);
+  color: hsl(168, 34%, 41%);
+}
+
+footer img{
+  background: hsl(168,45%,69%);
+  color: hsl(168, 34%, 41%);
+}
+
+
+footer  ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+ 
+}
+
+
+
+.social-medias img{
+  margin-top: 4rem;
+  padding: 14px;
+  
+}
+
+.footer-logo{
+
+}
+
+footer ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  background: hsl(168,45%,69%);
+  color: hsl(168, 34%, 41%);
+}
+
+footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 5rem; 
+}
 
 
